@@ -8,12 +8,19 @@ import icon3 from '../../assets/icon3.png';
 import './Home.css'
 
 function Home() {
+    const onLoginButtonClickHandler=()=>{
+        window.location.href="https://login.systemxlite.com/login/"
+    }
+    const onFreeTrialButtonClickHandler=()=>{
+        window.location.href="https://login.systemxlite.com/register"
+    }
+
     return (
         <div className="home-container" id='home'>
             <div className="introWrapper">
                     Professional tools for the Everyday Investor
             </div>
-            <div><Button cls="large-dark" name="Free Trial" clicked={null} /></div>
+            <div><Button cls="large-dark" name="Free Trial" clicked={onFreeTrialButtonClickHandler} /></div>
             <div className="image-wrapper"><img src={analysisimage} alt="technical chart"></img></div>
             <div className="blue-experience">
                 <div className="exp-header">Experience the platform that started it all in Nepal</div>
@@ -54,7 +61,7 @@ function Home() {
                     </div>
 
                 </div>
-                <div className="start-using-button-wrapper"><Button cls="large-dark" name="Start using" clicked={null} /></div>
+                <div className="start-using-button-wrapper"><Button cls="large-dark" name="Start using" clicked={onLoginButtonClickHandler} /></div>
             </div>
         </div>
     )

@@ -77,16 +77,15 @@ button {
     padding: 0 15px;
   }
   .small-light {
-    font-size: 1.5em;
-    height: 30px;
+    font-size: 1em;
+    height: 40px;
     width: auto;
   }
   .small-dark {
-    font-size: 1.5em;
-    height: 30px;
+    font-size: 1em;
+    height: 40px;
     width: auto;
-  }
-  
+  } 
   .large-light {
     font-size: 1em;
     height: 50px;

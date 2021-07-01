@@ -3,14 +3,14 @@
     flex-direction: column;
     background-color: var(--background-black);
     color: white;
-    height: 50vh;   
+    height: auto;   
     width:100%;
     overflow-x:hidden;
     /* overflow-y:hidden; */
 }
 .contacts{
-    height: 30vh;
-    margin: 10vh 5% 0vh 5%;
+    /* height: 30vh; */
+    margin: 10vh 5% 2vh 5%;
 }
 .thulo-word{
     margin-bottom: 5vh;
@@ -49,6 +49,8 @@
 }
 .icons{
     margin: 5px;
+    color: white;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {

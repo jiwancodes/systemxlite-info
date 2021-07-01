@@ -146,11 +146,13 @@
 @media only screen and (max-width: 800px) {
  
   .introWrapper{
-    padding: 0 50px;
+    /* padding: 0 50px; */
+    width: 70%;
+    margin: 7vh 15%;
     font-size: 2em;
     text-align: center;
     font-weight: 800;
-    padding: 7vh 10vw;
+    /* padding: 7vh 10vw; */
   }
   
   .image-wrapper {
@@ -169,22 +171,24 @@
   }
   .stock-intro {
     flex-direction: column;
-    text-align: left;
-    width: 100%;
+    text-align: center;
+    width: 70%;
     height: auto;
   }
   .stock-intro div {
-    width:70%;
-    text-align: left;
+    width:100%;
+    text-align: center;
     height: auto;
   }
   .intro1{
-    padding: 5vh 15%;
-    margin-top: 5vh;
+    /* width:70%; */
+    padding: 5vh 15% 1vh 15%;
+    margin: 5vh 0 0 0;
     font-size: 2.5em;
   }
   .intro2{
-    padding: 0px 15%;
+    /* width:70%; */
+    padding: 1vh 15%;
     margin: 0px 0px 15vh 0px;
     font-size: 1em;
   }

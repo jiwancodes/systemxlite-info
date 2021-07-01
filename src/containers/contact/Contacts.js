@@ -19,10 +19,11 @@ function Contacts() {
                 <div className="copyright">© 2021 All rights reserved</div>
                 <div ></div>
                 <div className="icons-wrapper">
-                <div className="icons" outlined='circular'><InstagramIcon/></div>
-                <div className="icons"><a href="https://www.facebook.com/systemxlite/" alt="systemxlite facebook page"><FacebookIcon/></a></div>
-                <div className="icons"><TwitterIcon/></div>
-                <div className="icons"><YouTubeIcon/></div>
+                <a className="icons" href="https://www.instagram.com/smtmcapital/" target="_blank" rel="noopener noreferrer" alt="systemxlite instagram page"><InstagramIcon/></a>
+                <a className="icons" href="https://www.facebook.com/systemxlite/" target="_blank" rel="noopener noreferrer" alt="systemxlite facebook page"><FacebookIcon/></a>
+                <a className="icons" href="https://twitter.com/systemlite" target="_blank" rel="noopener noreferrer" alt="systemxlite twitter page"><TwitterIcon/></a>
+                <a className="icons" href="https://www.youtube.com/channel/UCcm5hfL5ngmlWkjcDbulblQ" target="_blank" rel="noopener noreferrer" alt="systemxlite youtube page"><YouTubeIcon/></a>
+                  
 
                 </div>
                 </div>          

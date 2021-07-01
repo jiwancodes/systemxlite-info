@@ -9,7 +9,6 @@ import MaterialSideDrawer from '../sideDrawer/SideDrawer'
 function AppBar(props) {
     const [state, setState] = useState({ left: false });
     const gotoHome = () => {
-        console.log("clicked");
         const section = document.querySelector('#home');
         scrollWithOffset(section);
     }
@@ -31,9 +30,14 @@ function AppBar(props) {
         const yOffset = -100;
         window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
     }
+    const onLoginButtonClickHandler=()=>{
+        window.location.href="https://login.systemxlite.com/login/"
+    }
+    const onFreeTrialButtonClickHandler=()=>{
+        window.location.href="https://login.systemxlite.com/register"
+    }
 
     const toggleDrawer = (anchor, open) => (event,) => {
-        console.log("clicked");
         if (
           event.type === 'keydown' &&
           ((event).key === 'Tab' ||
@@ -55,12 +59,12 @@ function AppBar(props) {
             <div className="nav-item-wrapper">
             <Button name="Home" clicked={gotoHome} cls='small white'/>
             <Button name="Pricing" clicked={gotoPricing} cls='small white'/>
-            <Button name="Contact" clicked={gotoContacts} cls='small white'/>
             <Button name="FAQ" clicked={gotoFaq} cls='small white'/>   
+            <Button name="Contact" clicked={gotoContacts} cls='small white'/>
             </div>
             <div className="button-wrapper">
-                <Button name="Login" clicked={props.executeScroll} cls="small-light blue" />
-                <Button name="Free Trial" cls="small-dark" />
+                <Button name="Login" clicked={onLoginButtonClickHandler} cls="small-light blue" />
+                <Button name="Free Trial" clicked={onFreeTrialButtonClickHandler} cls="small-dark" />
             </div>
             <div className="hamburger-container" >
                 <div className="hamburger-icon"  onClick={toggleDrawer("left", true)}>
