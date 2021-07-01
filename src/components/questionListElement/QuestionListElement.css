@@ -1,0 +1,27 @@
+.list-container{
+    margin: 0px 5% 16px 5% ;
+    padding: 20px 42px;
+    background-color: var(--background-lightgrey);
+    border-radius: 10px;
+    height: auto;
+
+}  
+.question-header{
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 400;
+    margin: 5px auto;
+    padding: 10px auto 15px auto;
+}
+.question-spacer{
+    height: 1px;   
+    margin: 10px;
+    background-color: var( --border-color-grey);
+}
+.question-body{
+    font-size: .9em;
+    text-align: left;
+    font-weight: 400;
+    margin: 5px auto;
+    padding: 10px;
+}

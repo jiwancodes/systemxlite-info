@@ -1,0 +1,81 @@
+.pricing-container{
+    position: relative;
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.subscription-plan{
+    padding: 12vh 5% 8vh 7%;
+    width: 100%;
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.plans-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 2.5%;
+    height: 50vh;
+}
+.plan-wrapper{
+    border-radius: 10px;
+    height: 50vh;
+    width: 45%;
+}
+.colored {
+    margin: 0px 0px 0px 5%;
+    background-color: var(--baby-pink);    
+}
+.colorless {
+    margin: 0px 5% 0px 0px;
+    background-color: var(--nearly-white);    
+}
+.thulo-words{
+    margin: 7vh 5%;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.paragraph{
+    margin: 5vh 5%;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.spacer{
+    height: 5vh;
+}
+.questions-wrapper{
+    margin: 12vh auto 2vh auto;
+    font-size: 3em;
+    font-weight: 500;
+}
+@media only screen and (max-width: 650px) {
+    .pricing-container{
+        height: 140vh;
+    }
+    .subscription-plan{
+        padding: 12vh 5% 8vh 5%;
+        text-align: center;
+    }
+    .plans-container{
+        margin : 10px ;
+        flex-direction: column;
+    }
+    .plan-wrapper{
+        width: 80%;
+    }
+    .colored {
+        margin: 0px 5% 0px 5%;  
+    }
+    .colorless {
+        margin: 0px 5% 0px 5% ;
+        background-color:#fefefe;    
+    }
+    .questions-wrapper{
+        position: relative;
+        margin: 45vh 5% 2vh 5%;
+        font-size: 3em;
+        font-weight: 500;
+    }
+
+}

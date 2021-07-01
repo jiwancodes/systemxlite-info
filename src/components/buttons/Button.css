@@ -1,0 +1,101 @@
+button {
+  border: none;
+  display: inline;
+  color: white;
+  padding: 0 30px;
+  border-radius: 10px;
+  margin: 5px;
+  white-space: nowrap;
+  text-align: center;
+  /* text-decoration: none; */
+  font-family: Inter;
+  font-size: 14px;
+}
+.small {
+  font-size: 1em;
+  font-weight: 800;
+  height: 40px;
+  width: auto;
+}
+.small.white{
+  margin: 0px;
+  color: black;
+  font-weight: 200;
+  background-color: #ffffff;
+}
+.small.white:hover{
+  color: black;
+  background-color: #fefafa;
+
+}
+ .small-light {
+  font-size: 1em;
+  font-weight: 800;
+  height: 40px;
+  width: auto;
+  background-color: var(--light);
+}
+.small-light.blue{
+  color: var(--dark);
+}
+.small-light:hover {
+  background-color: var(--lighthover);
+}
+.small-dark {
+  font-size: 1em;
+  font-weight: 800;
+  height: 40px;
+  width: auto;
+  background-color: var(--dark);
+}
+.small-dark:hover {
+  background-color: var(--darkhover);
+}
+
+.large-light {
+  font-size: 1.5em;
+  font-weight: 800;
+  height: 70px;
+  width: 200px;
+  background-color: var(--light);
+}
+.large-light:hover {
+  background-color: var(--lighthover);
+}
+.large-dark {
+  font-size: 1.5em;
+  font-weight: 800;
+  height: 70px;
+  width: 200px;
+  background-color: var(--dark);
+}
+.large-dark:hover {
+  background-color: var(--darkhover);
+}
+@media only screen and (max-width: 800px) {
+  button{
+    padding: 0 15px;
+  }
+  .small-light {
+    font-size: 1.5em;
+    height: 30px;
+    width: auto;
+  }
+  .small-dark {
+    font-size: 1.5em;
+    height: 30px;
+    width: auto;
+  }
+  
+  .large-light {
+    font-size: 1em;
+    height: 50px;
+    width: 120px;
+  }
+  .large-dark {
+    font-size: 1em;
+    height: 50px;
+    width: 120px;
+  }
+
+}
