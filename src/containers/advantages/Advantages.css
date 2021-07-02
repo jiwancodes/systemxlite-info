@@ -1,0 +1,109 @@
+.advantages {
+    padding: 50px 5% ;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color:var(--background-black);
+    font-family: Inter;
+  }
+  .advantage-header {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54px;
+    padding: 0px 0px 50px 0px;  
+  }
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content : space-between;
+  }
+  .card-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-color: none;
+    height: auto;
+  }
+  .element-container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 40px 32px 20px 32px;
+  }
+  .cardSection1{
+    text-align: left;
+    justify-content: left;
+  }
+  .cardSection2{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 10px 0px;
+    text-align: left;
+    justify-content: left;
+  }
+  .cardSection3{ 
+    margin-top: 10px;
+    text-align: left;
+    justify-content: left;
+  }
+  .start-using-button-wrapper{
+    margin: 80px auto 0px auto;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .advantages {
+        padding: 50px 5% ;
+    }
+      .adv-header{
+        font-size: 36px;
+        padding: 0px 0px 54px 0px;  
+        margin: 10vh auto;
+        color: white;
+      }
+      .card-container{
+        flex-direction: column;
+        justify-content : space-between;
+      }
+      .card-wrapper{
+        width: 70%;
+        margin:0px 15% 50px 15%;
+      }
+      .element-container{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: 40px 32px 20px 32px;
+      }
+      .cardSection1{
+        text-align: left;
+        justify-content: left;
+      }
+      .cardSection2{
+        font-size: 1.5em;
+        font-weight: 600;
+        margin: 10px 0px;
+        text-align: left;
+        justify-content: left;
+      }
+      .cardSection3{ 
+        margin-top: 10px;
+        text-align: left;
+        justify-content: left;
+      }
+      .start-using-button-wrapper{
+        margin: 0px auto 0px auto;
+      }   
+  }
+  @media only screen and (max-width: 500px) {
+    .card-wrapper{
+        width: 90%;
+        margin:0px 5% 50px 5%;
+      }
+
+  }

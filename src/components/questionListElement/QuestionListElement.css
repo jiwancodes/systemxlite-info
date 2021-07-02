@@ -7,19 +7,22 @@
 
 }  
 .question-header{
-    font-size: 1.5em;
+    font-size: 20px;
+    line-height: 26px;
     text-align: left;
-    font-weight: 400;
+    font-weight: 500;
     margin: 5px auto;
     padding: 10px auto 15px auto;
 }
 .question-spacer{
     height: 1px;   
-    margin: 10px;
+    margin: 10px 5px 0px 0px;
     background-color: var( --border-color-grey);
 }
 .question-body{
-    font-size: .9em;
+    color: var(--light-font);
+    font-size: 16px;
+    line-height: 26px;
     text-align: left;
     font-weight: 400;
     margin: 5px auto;

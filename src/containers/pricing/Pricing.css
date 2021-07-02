@@ -1,60 +1,57 @@
 .pricing-container{
+    font-family: Inter;
     position: relative;
-    height: 100vh;
-    margin-top: 100px;
+    height: auto;
+    margin: 0px 5% 0px 5%;
+    padding: 50px 0px 50px 0px;
     display: flex;
     flex-direction: column;
 }
 .subscription-plan{
-    padding: 12vh 5% 8vh 7%;
+    padding: 0px 0px 50px 5%;
     width: 100%;
     text-align: left;
-    font-size: 2.5em;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 800;
 }
 .plans-container{
     display: flex;
     flex-direction: row;
-    margin: 0px 2.5%;
-    height: 50vh;
+    margin: 0px 5%;
+    height: auto;
 }
 .plan-wrapper{
-    border-radius: 10px;
-    height: 50vh;
-    width: 45%;
+    height: auto;
+    width: 50%;
 }
 .colored {
-    margin: 0px 0px 0px 5%;
+    border-radius: 10px 0px 0px 10px;
     background-color: var(--baby-pink);    
 }
 .colorless {
-    margin: 0px 5% 0px 0px;
+    border-radius:  0px 10px 10px 0px;
     background-color: var(--nearly-white);    
 }
 .thulo-words{
-    margin: 7vh 5%;
-    font-size: 2.5em;
+    margin: 40px 5%;
+    font-size: 36px;
     font-weight: 800;
 }
 .paragraph{
-    margin: 5vh 5%;
-    font-size: 1.5em;
+    margin: 30px 5%;
+    font-size: 24px;
     font-weight: 500;
 }
 .spacer{
     height: 5vh;
 }
-.questions-wrapper{
-    margin: 12vh auto 2vh auto;
-    font-size: 3em;
-    font-weight: 500;
-}
-@media only screen and (max-width: 650px) {
+
+@media only screen and (max-width: 800px) {
     .pricing-container{
-        height: 140vh;
+        padding: 50px 0px 50px 0px;
     }
     .subscription-plan{
-        padding: 12vh 5% 8vh 5%;
+        padding: 0px 0px 40px 0px;
         text-align: center;
     }
     .plans-container{
@@ -65,16 +62,39 @@
         width: 80%;
     }
     .colored {
-        margin: 0px 5% 0px 5%;  
+        border-radius: 10px 10px 0px  0px ;
+        margin: 0px 10% 0px 10%;  
     }
     .colorless {
-        margin: 0px 5% 0px 5% ;
-        background-color:#fefefe;    
+        border-radius: 0px  0px 10px 10px ;
+
+        margin: 0px 10% 0px 10% ;  
     }
-    .questions-wrapper{
-        position: relative;
-        margin: 45vh 5% 2vh 5%;
-        font-size: 3em;
+    .thulo-words{
+        font-size: 36px;
+    }
+    .paragraph{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .pricing-container{
+        padding: 30px 0px 30px 0px;
+    }
+    .subscription-plan{
+        padding: 0px 0px 20px 0px;
+        text-align: center;
+    }
+    .thulo-words{
+        margin: 20px 5%;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 800;
+    }
+    .paragraph{
+        margin: 15px 5%;
+        font-size: 20px;
+        line-height: 30px;
         font-weight: 500;
     }
 

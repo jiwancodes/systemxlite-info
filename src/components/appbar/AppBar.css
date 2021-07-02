@@ -9,18 +9,18 @@
      border-bottom: 1px #e5e9f2 solid;
      border-color: #e5e9f2;
      margin: 0px;
-     position: fixed;
      background-color: #ffffff;
      z-index: 2;
-     top:0px;
+     /* position: fixed; */
+     /* top:0px; */
 }
 .logo-wrapper{
     margin-left:5vw;
     width: 15vw;
 }
 .logo-wrapper img{
-    height: 9vh;
-    width:250px;
+    height: 55px;
+    width: 200px;
 }
 .spacer{
 
@@ -49,23 +49,23 @@
     display: none;
 
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 940px) {
     .appbar{
         display: flex;
         flex-direction: column;
         justify-content: flex-start ;
         /* align-items: center; */
-        height: 120px;
+        height: 80px;
         /* padding: 16px; */
       
    }
    .logo-wrapper{
-    margin: 5px 0px ;
-    width: 200px;
-    height: 8vh;
+    margin: 20px 0px ;
+    width: 225px;
+    height: 80px;
 }
 .logo-wrapper img{
-    height: 8vh;
+    height: 55px;
     width: 200px;
 }
 .spacer{

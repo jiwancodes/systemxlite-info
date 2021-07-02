@@ -1,0 +1,9 @@
+.questions{
+    font-family: Inter;
+}
+.questions-wrapper{
+    margin: 10px auto ;
+    font-size: 48px;
+    font-family: Inter ;
+    font-weight: 800;
+}

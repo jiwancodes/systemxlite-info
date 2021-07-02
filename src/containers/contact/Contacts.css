@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color: var(--background-black);
     color: white;
+    font-family: Inter;
     height: auto;   
     width:100%;
     overflow-x:hidden;
@@ -10,20 +11,24 @@
 }
 .contacts{
     /* height: 30vh; */
-    margin: 10vh 5% 2vh 5%;
+    margin: 28px 5% 5px 5%;
 }
 .thulo-word{
-    margin-bottom: 5vh;
+    margin-bottom: 23px;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 18px;
+    line-height: 28px;
+    /* font-size: 1.2em; */
     font-weight: 700;
 }
 
 .sano-word{
-    margin-bottom:5vh;
+    margin-bottom: 19px;;
     text-align: left;
-    font-size: 1em;
-    font-weight: 100;
+    line-height: 24px;
+    font-size: 14px;
+    /* font-size: 1em; */
+    font-weight: 400;
 
 }
 .border{
@@ -62,24 +67,22 @@
     .contacts{
         height: auto;
         width: 80%;
-        margin:2vh 10% 8vh 10%;
+        margin:30px 10% 0px 10%;
     }
     .thulo-word{
-        margin: 7vh 0px 3vh 0px;
+        /* margin: 7vh 0px 3vh 0px; */
         text-align: center;
     }    
     .sano-word{
-        margin-bottom:2vh;
+        /* margin-bottom:2vh; */
         text-align: center;
-        font-size: 1em;
-        font-weight: 100;    
     }
     .border{
         width: 100%;
         border-bottom: .1em var(--border-color-grey) solid;
     }
     .footer{
-        height: 15vh;
+        height: auto;
         display: flex;
         width: 80%;
         margin:10px 10%;
@@ -87,6 +90,7 @@
     }
     .copyright{
         font-size: 1.1em;
+        margin-bottom:14px ;
     }
     .icons-wrapper{
         display: flex;

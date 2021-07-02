@@ -3,14 +3,15 @@ import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
+// import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 // import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
+// import ListItemText from '@material-ui/core/ListItemText';
 
 // import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 // import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
-import Button from '../buttons/Button';
+// import Button from '../buttons/Button';
+import './SideDrawer.css'
 
 
 const useStyles = makeStyles({
@@ -21,14 +22,17 @@ const useStyles = makeStyles({
         width: 'auto',
     },
     listItem: {
-        textAlign: 'center',
+        textAlign: 'left',
         alignContent:'center',
         height:'auto',
     },
     listButton:{
-        display:'flex',
-        flexDirection:'column',
-        justifyContent:'center',
+        padding:'-10px, auto 10px 10px',
+        textAlign:'left',
+        backgroundColor:'#8c34f3',
+        color:'#ffffff',
+        fontSize:'16px',
+        fontWeight:'600',
     }
 });
 
@@ -57,7 +61,7 @@ export default function MaterialSideDrawer(props) {
 
     const scrollWithOffset = (el) => {
         const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-        const yOffset = -120;
+        const yOffset = 0;
         window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
     }
     const onLoginButtonClickHandler = () => {
@@ -79,68 +83,51 @@ export default function MaterialSideDrawer(props) {
                             onClick={toggleDrawer(anchor, false)}
                             onKeyDown={toggleDrawer(anchor, false)}
                         >
-                            {/* <Divider />
-                            <List>
-                                    <ListItem  button key="login" onClick={onLoginButtonClickHandler}>
-                                        <ListItemIcon><AccountCircleIcon /> </ListItemIcon>
-                                        <ListItemText primary="Log In" />
-                                    </ListItem>
-                            </List>
-                            <Divider />
-                            <List>
-                                <ListItem  button key="trial" onClick={onFreeTrialButtonClickHandler}>
-                                    <ListItemIcon > <AddCircleOutlineIcon /> </ListItemIcon>
-                                    <ListItemText primary="Free Trial" />
-                                </ListItem>    
-                            </List>
-                            <Divider /> */}
-                            <>
-                            <List>
-                                <ListItem className={classes.listButton} button key="login" onClick={onLoginButtonClickHandler}>
-                                <Button name="Login" clicked={onLoginButtonClickHandler} cls="small-light blue" />
+                        <div className="list-wrapper">
+                            <div className="list-element neelo-button" onClick={onLoginButtonClickHandler}>
+                            <div className="drawer-button " >LOGIN</div>
+                            </div>
+                            <div className="list-element seto-button" onClick={gotoHome}>
+                            <div className="drawer-button " >Home</div>
+                            </div>
+                            <div className="list-element seto-button" onClick={gotoPricing}>
+                            <div className="drawer-button ">PRICING</div>
+                            </div>
+                            <div className="list-element seto-button" onClick={gotoFaq}>
+                            <div className="drawer-button ">FAQ</div>
+                            </div>
+                            <div className="list-element seto-button" onClick={gotoContacts}>
+                            <div className="drawer-button ">CONTACT</div>
+                            </div>
+
+
+                        </div>
+
+                            {/* <List>
+                                <ListItem className="listButton" button key="login" onClick={onLoginButtonClickHandler}>
+                                   <div className="drawer-button neelo"> LOGIN</div>
                                 </ListItem>
                             </List>
-                            <Divider />
-                            <List>
-                                <ListItem className={classes.listButton} button key="trial" onClick={onFreeTrialButtonClickHandler}>
-                                <Button name="Free Trial" clicked={onFreeTrialButtonClickHandler} cls="small-dark" />
-                                </ListItem>
-                            </List>
-                            <Divider />
                             <List>
                                 <ListItem className={classes.listItem} button key="home" onClick={gotoHome}>
-                                    {/* <ListItemIcon > <AddCircleOutlineIcon /> </ListItemIcon> */}
-                                    <ListItemText primary="Home" />
+                                    <div className="drawer-button">HOME</div>
                                 </ListItem>
                             </List>
-                            <Divider />
                             <List>
                                 <ListItem className={classes.listItem} button key="pricing" onClick={gotoPricing}>
-                                    {/* <ListItemIcon > <AddCircleOutlineIcon /> </ListItemIcon> */}
-                                    <ListItemText primary="Pricing" />
+                                    <div className="drawer-button">PRICING</div>
                                 </ListItem>
                             </List>
-                            <Divider />
                             <List>
                                 <ListItem className={classes.listItem} button key="faq" onClick={gotoFaq}>
-                                    {/* <ListItemIcon > <AddCircleOutlineIcon /> </ListItemIcon> */}
-                                    <ListItemText primary="FAQ" />
+                                    <div className="drawer-button">FAQ</div>
                                 </ListItem>
                             </List>
-                            <Divider />
                             <List>
                                 <ListItem className={classes.listItem} button key="Contacts" onClick={gotoContacts}>
-                                    {/* <ListItemIcon > <AddCircleOutlineIcon /> </ListItemIcon> */}
-                                    <ListItemText primary="Contacts" />
+                                    <div className="drawer-button">CONTACT</div>
                                 </ListItem>
-                            </List>
-                            <Divider />
-                            </><ListItem>
-                            </ListItem>
-                            <div className="button-wrapper">
-                                <Button name="Login" clicked={onLoginButtonClickHandler} cls="small-light blue" />
-                                <Button name="Free Trial" clicked={onFreeTrialButtonClickHandler} cls="small-dark" />
-                            </div>
+                            </List> */}
                         </div>
                     </Drawer>
                 </React.Fragment>

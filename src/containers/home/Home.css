@@ -1,18 +1,17 @@
 .home-container{
   position: relative;
-  top: 100px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: Inter;
 }
 .introWrapper{
-  width: 70%;
-  margin: 5vh 15%;
-  /* padding: 0 35%;   */
-  font-size: 4em;
-  font-weight: 800;
-  /* padding: 5vh 0px; */
+  width: 90%;
+  margin: 50px 5%;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 94px;
 }
 
 .image-wrapper {
@@ -23,8 +22,8 @@
   height: 390px;
 }
 .blue-experience {
-  min-height: 200px;
-  padding: 10px 0px;
+  height:auto;
+  padding: 50px 0px;
   background-color: var(--dark);
   display: flex;
   flex-direction: column;
@@ -32,51 +31,51 @@
   color: white;
 }
 .exp-header{
-  padding-top: 40px;
-  width: 85%;
-  font-size: 2.5em;
+  width: 85%;  
+  font-size: 40px;
+  line-height: 50px;
+  padding: 0px 40px;
   font-weight: 800;
 }
 .exp-body{
-  width: 90%;
-  margin-top: 5px;
-  font-size: 1.3em;
+  width: 85%;
+  padding: 0px 40px ;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 30px;
   font-weight: 500;
-  padding-bottom: 30px;
 }
 .tearsheet-intro-wrapper {
-  height:140vh;
+  height:auto;
   position: relative;
   display: flex;
   flex-direction: column;
+  padding:94px 0px 0px 0px;
 }
 .stock-intro {
   display: flex;
   flex-direction: row;
-  height: 70vh;
+  width:90%;
+  margin: 0px 5%;
+  padding-bottom: 250px;
 }
 .stock-intro div {
-  width: 45%;
-  height: auto;
+  width: 50%;
+  padding: 0px 10px;
   text-align: left;
-  margin-top: 5vh;
 }
 .intro1{
-  font-size: 2.5em;  
-  line-height: 1.6; 
+  font-size: 40px;  
+  line-height: 54px; 
   font-weight: 800;
-  margin-left:5% ;
-  padding: 40px 30px 40px 30px;
 }
 .intro2{
-  font-size: 1.1em;
-  line-height: 1.6;  
-  margin-right: 5%;
-  padding: 40px 30px 40px 30px;
+  font-size:16px;
+  line-height: 26px;  
 }
 
 .mackbook-image-wrapper {
-  margin-top: -15vh;  
+  margin-top: -150px;  
   position: relative;
   
 }
@@ -86,112 +85,49 @@
   
 }
 .grey-div {
-  margin-top: -55vh;  
-  height: 70vh;
+  margin-top: -300px;  
+  height: 400px;
   background-color: var(--background-grey);
 }
 
-.advantages {
-  padding: 0px 5% ;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-color:var(--background-black);
-}
-.advantages h1 {
-  margin: 10vh auto;
-  color: white;
-}
-.card-container{
-  display: flex;
-  flex-direction: row;
-  justify-content : space-between;
-}
-.card-wrapper{
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  min-height: 40vh;
-  background-color: #ffffff;
-  border-radius: 20px;
-  border-color: none;
-}
-.element-container{
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-  padding: 40px 32px;
-}
-.cardSection1{
-  text-align: left;
-  justify-content: left;
-}
-.cardSection2{
-  font-size: 1.5em;
-  font-weight: 600;
-  margin: 10px 0px;
-  text-align: left;
-  justify-content: left;
-}
-.cardSection3{ 
-  margin-top: 10px;
-  text-align: left;
-  justify-content: left;
-}
-.start-using-button-wrapper{
-  margin: 10vh auto 0px auto;
-}
 @media only screen and (max-width: 800px) {
  
   .introWrapper{
-    /* padding: 0 50px; */
-    width: 70%;
-    margin: 7vh 15%;
-    font-size: 2em;
+    font-size: 36px;
+    line-height: 46px;
+    margin: 30px 5%;
     text-align: center;
-    font-weight: 800;
-    /* padding: 7vh 10vw; */
   }
   
   .image-wrapper {
     margin: 40px 5px 0px 5px;
   }
   .image-wrapper img {
-    width: 500px;
-    height: 300px;
+    height: 290px;
+    width: 480px;
   }
-  .blue-experience {
-    padding: 30px 5px;
-  }
+
   .tearsheet-intro-wrapper {
-    height: auto;
-    flex-direction: column;
+    padding:50px 0px 0px 0px;
   }
-  .stock-intro {
-    flex-direction: column;
-    text-align: center;
-    width: 70%;
-    height: auto;
+  .stock-intro{
+    padding-bottom: 170px;
   }
   .stock-intro div {
-    width:100%;
-    text-align: center;
-    height: auto;
+    width: 50%;
+    padding: 0px 10px;
+    text-align: left;
   }
   .intro1{
-    /* width:70%; */
-    padding: 5vh 15% 1vh 15%;
-    margin: 5vh 0 0 0;
-    font-size: 2.5em;
+    font-size: 40px;  
+    line-height: 54px; 
+    font-weight: 800;
   }
   .intro2{
-    /* width:70%; */
-    padding: 1vh 15%;
-    margin: 0px 0px 15vh 0px;
-    font-size: 1em;
+    font-size:16px;
+    line-height: 26px;  
   }
+   
   .mackbook-image-wrapper {
     padding: auto;
     margin-top: -15vh;  
@@ -203,85 +139,56 @@
     
   }
   .grey-div {
-    margin-top: -25vh;  
-    height: 40vh;
+    margin-top: -200px;  
+    height: 250px;
+    background-color: var(--background-grey);
   }
-  
-  .advantages {
-    padding: 0px 5% ;
-    height: auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color:var(--background-black);
-  }
-  .adv-header{
-    font-size: 2em;
-    margin: 10vh auto;
-    color: white;
-  }
-  .card-container{
-    display: flex;
-    flex-direction: column;
-    justify-content : space-between;
-  }
-  .card-wrapper{
-    margin-top: 5vh;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    min-height: 40vh;
-    background-color: #ffffff;
-    border-radius: 20px;
-    border-color: none;
-  }
-  .element-container{
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    padding: 40px 32px;
-  }
-  .cardSection1{
-    text-align: left;
-    justify-content: left;
-  }
-  .cardSection2{
-    font-size: 1.5em;
-    font-weight: 600;
-    margin: 10px 0px;
-    text-align: left;
-    justify-content: left;
-  }
-  .cardSection3{ 
-    margin-top: 10px;
-    text-align: left;
-    justify-content: left;
-  }
-  .start-using-button-wrapper{
-    margin: 10vh auto 0px auto;
-  }
-  
+
   
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
+  .image-wrapper {
+    margin: 40px 5px 0px 5px;
+  }
   .image-wrapper img {
-    width: 400px;
-    height: 240px;
+    height: 180px;
+    width: 300px;
+  } 
+  
+  .tearsheet-intro-wrapper {
+    padding:50px 0px 0px 0px;
+  }
+  .stock-intro {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width:90%;
+    margin: 0px 5%;
+    padding-bottom: 220px;
+  }
+  .stock-intro div {
+    width: 100%;
+    padding: 0px 10px;
+    text-align: left;
+  }
+  .intro2{
+    margin-top: 20px;
+    font-size:16px;
+    line-height: 26px;  
   }
   .mackbook-image-wrapper {
     padding: auto;
-    margin-top: -15vh;  
+    margin-top: -180px;  
     position: relative; 
   }
   .mackbook-image-wrapper img{
-    height: 220px;
-    width: 390px;
+    height: 210px;
+    width: 360px;
     
   }
   .grey-div {
-    margin-top: -20vh;  
-    height: 30vh;
+    margin-top: -150px;  
+    height: 180px;
     background-color: var(--background-grey);
-  }
+  } 
 }

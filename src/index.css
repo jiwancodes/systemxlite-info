@@ -19,11 +19,15 @@ code {
   --background-lightgrey: #f4f5f7;
   --border-color-grey: #d9dbe1;
   --baby-pink: #fdd9d9;
-  --nearly-white:#fefefe;
+  --nearly-white:#F6EFFF;
 
   /*BUTTON CONDITIONS*/
   --dark: #8c34f3;
   --darkhover: #a044ff;
   --light: #f1e4ff;
   --lighthover: #fbeeff;
+  
+  /*FONT COLORS*/
+  --light-font:#43444b;
+
 }

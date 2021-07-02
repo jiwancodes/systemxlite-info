@@ -16,9 +16,7 @@ function Pricing(props) {
                 <div className="spacer"></div>
                 <div className="thulo-words">Rs. 2,500</div>
                 </div>
-            </div>
-            <div className="questions-wrapper" id="faq">FAQ</div>
-            
+            </div>            
         </div>
     )
 }

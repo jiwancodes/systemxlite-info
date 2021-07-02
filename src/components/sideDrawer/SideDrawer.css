@@ -1,7 +1,14 @@
-
-.button-wrapper{
-    position: relative;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+.list-element{
+    padding: 15px 30px;
+    font-family: Inter;
 }
+ .neelo-button{
+    padding: 20px 30px;
+        color: #ffffff;
+        background-color: var(--dark);
+        font-weight:800;
+    }
+    .seto-button{
+        font-weight: 400;
+
+    }
