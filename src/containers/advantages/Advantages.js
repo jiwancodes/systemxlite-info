@@ -15,33 +15,34 @@ function Advantages() {
     }
     return (
         <div className="advantages">
-        <div className="advantage-header">The advantages of our product</div>
+        <div className="advantage-header">systemxlite advantages</div>
         <div className="card-container">
 
             <div className="card-wrapper">
                 <div className="element-container">
                     <div className="cardSection1"><LazyLoadImage effect="blur" src={icon1} alt="icon"/></div>
                     <div className="cardSection2">Fast</div>
-                    <div className="cardSection3">The platform delivers fast access to information and analytics. Feel the difference.  </div>
+                    <div className="cardSection3">Latest technologies give you fast access to information and analytics. </div>
+                    <div className="cardSection3">Feel the difference! </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="element-container">
                     <div className="cardSection1"><LazyLoadImage effect="blur" src={icon2} alt="icon"/></div>
                     <div className="cardSection2">Standardized</div>
-                    <div className="cardSection3">Consitent calculation methodologies provide the necessary accuracy to compare securities in and across industries.   </div>
+                    <div className="cardSection3">Consistent calculation methodologies throughout the platform to ensure comparability between companies and across sectors. </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="element-container">
                     <div className="cardSection1"><LazyLoadImage effect="blur" src={icon3} alt="icon"/></div>
-                    <div className="cardSection2">All in one</div>
-                    <div className="cardSection3">Track your holdings, stay informed, look up fundamentals, analyze stocks, generate insights and track broker movements. A simple to use all-in-one platform.  </div>
+                    <div className="cardSection2">Comprehensive</div>
+                    <div className="cardSection3">Track your investments, stay informed of market news, and analyze companies and market movements.</div>
                 </div>
             </div>
 
         </div>
-        <div className="start-using-button-wrapper"><Button cls="large-dark" name="Start using" clicked={onLoginButtonClickHandler} /></div>
+        <div className="start-using-button-wrapper"><Button cls="large-dark" name="Start using systemxlite today!" clicked={onLoginButtonClickHandler} /></div>
     </div>
 
     )

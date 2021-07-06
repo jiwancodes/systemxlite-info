@@ -2,15 +2,6 @@ import React from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
-import List from '@material-ui/core/List';
-// import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-// import ListItemIcon from '@material-ui/core/ListItemIcon';
-// import ListItemText from '@material-ui/core/ListItemText';
-
-// import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-// import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
-// import Button from '../buttons/Button';
 import './SideDrawer.css'
 
 
@@ -67,10 +58,6 @@ export default function MaterialSideDrawer(props) {
     const onLoginButtonClickHandler = () => {
         window.location.href = "https://login.systemxlite.com/login/"
     }
-    const onFreeTrialButtonClickHandler = () => {
-        window.location.href = "https://login.systemxlite.com/register"
-    }
-
 
     return (
         <div>
@@ -102,32 +89,6 @@ export default function MaterialSideDrawer(props) {
 
 
                         </div>
-
-                            {/* <List>
-                                <ListItem className="listButton" button key="login" onClick={onLoginButtonClickHandler}>
-                                   <div className="drawer-button neelo"> LOGIN</div>
-                                </ListItem>
-                            </List>
-                            <List>
-                                <ListItem className={classes.listItem} button key="home" onClick={gotoHome}>
-                                    <div className="drawer-button">HOME</div>
-                                </ListItem>
-                            </List>
-                            <List>
-                                <ListItem className={classes.listItem} button key="pricing" onClick={gotoPricing}>
-                                    <div className="drawer-button">PRICING</div>
-                                </ListItem>
-                            </List>
-                            <List>
-                                <ListItem className={classes.listItem} button key="faq" onClick={gotoFaq}>
-                                    <div className="drawer-button">FAQ</div>
-                                </ListItem>
-                            </List>
-                            <List>
-                                <ListItem className={classes.listItem} button key="Contacts" onClick={gotoContacts}>
-                                    <div className="drawer-button">CONTACT</div>
-                                </ListItem>
-                            </List> */}
                         </div>
                     </Drawer>
                 </React.Fragment>

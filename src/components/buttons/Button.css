@@ -29,7 +29,7 @@ button {
 
 }
  .small-light {
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 800;
   height: 40px;
   width: auto;
@@ -42,7 +42,7 @@ button {
   background-color: var(--lighthover);
 }
 .small-dark {
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 800;
   height: 40px;
   width: auto;
@@ -56,7 +56,7 @@ button {
   font-size: 20px;
   font-weight: 800;
   height: 70px;
-  width: 200px;
+  width: auto;
   background-color: var(--light);
 }
 .large-light:hover {
@@ -66,7 +66,7 @@ button {
   font-size: 20px;
   font-weight: 800;
   height: 70px;
-  width: 200px;
+  width: auto;
   background-color: var(--dark);
 }
 .large-dark:hover {
@@ -77,24 +77,24 @@ button {
     padding: 0 15px;
   }
   .small-light {
-    font-size: 1em;
+    font-size: 14px;
     height: 40px;
     width: auto;
   }
   .small-dark {
-    font-size: 1em;
+    font-size: 14px;
     height: 40px;
     width: auto;
   } 
   .large-light {
-    font-size: 1em;
+    font-size: 16px;
     height: 50px;
-    width: 120px;
+    width: auto;
   }
   .large-dark {
     font-size: 16px;
     height: 50px;
-    width: 120px;
+    width: auto;
   }
 
 }
