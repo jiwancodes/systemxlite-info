@@ -14,7 +14,7 @@ function Home() {
     return (
         <div className="home-container" id='home'>
             <div className="introWrapper">
-            professional investment and trading tools for you!            </div>
+            Professional investment and trading tools for you!            </div>
             <div><Button cls="large-dark" name="Get your free trial today!" clicked={onFreeTrialButtonClickHandler} /></div>
             <div className="image-wrapper"><LazyLoadImage effect="blur" src={analysisimage} alt="technical chart"/></div>
             <div className="blue-experience">
