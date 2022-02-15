@@ -26,8 +26,8 @@ function Landing() {
     };
     const checkForAlert = () => {
 
-        axios.get('http://localhost:4015/npstocks/popup-alert/systemxlite-page')
-            // axios.get('https://api.npstocks.com/npstocks/popup-alert/systemxlite-page')
+        // axios.get('http://localhost:4015/npstocks/popup-alert/systemxlite-page')
+        axios.get('https://api.npstocks.com/npstocks/popup-alert/systemxlite-page')
             .then((response) => {
                 console.log(response.data);
                 if (response.data !== null) {
@@ -36,7 +36,7 @@ function Landing() {
                     setheader(header);
                     setOpen(true);
                 }
-                else{
+                else {
                     setOpen(false);
                 }
             })
